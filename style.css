@@ -10,11 +10,11 @@ html {
   height: fit-content;
 }
 .sidebar {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
-  width: 18%;
-  height: 100%;
+  width: 20%;
+  height: 94.5vh;
   background-color: #006697;
   padding: 20px;
 }
@@ -54,7 +54,7 @@ a:hover{
     color: rgb(34, 224, 34);
 }
 .main-body {
-  margin-left: 20%;
+  /* margin-left: 20%; */
   width: 80%;
 }
 .content {
